@@ -14,7 +14,7 @@ import random
 import json
 
 option_a = os.getenv('OPTION_A', u"苹果")
-option_b = os.getenv('OPTION_B', u"橘子")
+option_b = os.getenv('OPTION_B', u"梨子")
 hostname = socket.gethostname()
 
 redis = connect_to_redis("redis")
